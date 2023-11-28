@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>final project</title>
+    <link rel="stylesheet" href="../css/finalProjectOfJs.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div>
+      <div class="container">
+        <div class="add-task">
+          <div id="to-do-list">
+            <div>
+              <h1 class="to-do-title">Creat Your Todo-List</h1>
+            </div>
+            <form id="task-form">
+              <div class="wrapper">
+                <input
+                  type="text"
+                  id="task-input"
+                  placeholder="What are your tasks for today?"
+                />
+              </div>
+              <button class="creat-task">Creat Task</button>
+              <button type="button" class="edit-task">Edit</button>
+            </form>
+            <div class="tasks">
+              <ul id="task-list"></ul>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="completed">
+            <ul id="completed-list"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../js/finalProjectOfJs.js"></script>
+  </body>
+</html>
